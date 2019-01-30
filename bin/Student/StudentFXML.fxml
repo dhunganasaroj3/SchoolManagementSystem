@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Student.StudentController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Student View">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.38294314381270905" layoutY="-1.0" prefHeight="366.0" prefWidth="600.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <GridPane layoutX="41.0" layoutY="1.0" prefHeight="363.0" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="1.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.0" minWidth="10.0" prefWidth="79.66667175292969" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="118.33332824707031" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label prefHeight="20.0" prefWidth="53.0" text="NAME:" />
+                                          <Label fx:id="fName" alignment="CENTER" prefHeight="15.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="USERNAME:" GridPane.rowIndex="1" />
+                                          <Label fx:id="userName" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="ROLL:" GridPane.rowIndex="2" />
+                                          <Label fx:id="roll_no" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="GENDER:" GridPane.rowIndex="3" />
+                                          <Label fx:id="gender" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="EMAIL:" GridPane.rowIndex="4" />
+                                          <Label fx:id="email" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="DOB:" GridPane.rowIndex="5" />
+                                          <Label fx:id="dob" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="CLASS:" GridPane.rowIndex="6" />
+                                          <Label fx:id="Class" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="ADMISSION YEAR:" GridPane.rowIndex="7" />
+                                          <Label fx:id="admission" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="DOB PLACE:" GridPane.rowIndex="8" />
+                                          <Label text="FATHER NAME:" GridPane.rowIndex="9" />
+                                          <Label text="MOTHER NAME:" GridPane.rowIndex="10" />
+                                          <Label text="PARENT NUMBER:" GridPane.rowIndex="11" />
+                                          <Label fx:id="dobPlace" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="fatherName" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="motherName" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="pNumber" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="lName" alignment="CENTER" text="Label" GridPane.columnIndex="2">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="STUDENT ID:" GridPane.rowIndex="12" />
+                                          <Label fx:id="lbl_id" alignment="CENTER" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <ComboBox fx:id="chooseterminal" onAction="#terminalAction" prefHeight="26.0" prefWidth="162.0" promptText="Terminals" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                          <Button fx:id="d" mnemonicParsing="false" onAction="#displayMarks" prefHeight="26.0" prefWidth="166.0" text="View Result" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="364.0" prefWidth="282.0">
+                                 <children>
+                                    <GridPane layoutX="-1.0" layoutY="62.0" prefHeight="240.0" prefWidth="336.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label fx:id="subMarks1" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" />
+                                          <Label fx:id="subMarks2" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label fx:id="subMarks3" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label fx:id="subMarks4" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label fx:id="subMarks5" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label fx:id="subMarks6" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label fx:id="subMarks7" prefHeight="15.0" prefWidth="50.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <Label text="Nepali" />
+                                          <Label text="English" GridPane.rowIndex="1" />
+                                          <Label text="Social Studies" GridPane.rowIndex="2" />
+                                          <Label text="Math" GridPane.rowIndex="3" />
+                                          <Label text="Science" GridPane.rowIndex="4" />
+                                          <Label text="Health Anfd Environment" GridPane.rowIndex="5" />
+                                          <Label text="Account" GridPane.rowIndex="6" />
+                                          <Label text="Total Marks" GridPane.rowIndex="7" />
+                                          <Label fx:id="tot" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <Label text="Total Percentage" GridPane.rowIndex="8" />
+                                          <Label fx:id="per" layoutX="178.0" layoutY="202.0" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <Label text="Division" GridPane.rowIndex="9" />
+                                          <Label fx:id="division" text="-----" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                          <Label text="Status" GridPane.rowIndex="10" />
+                                          <Label fx:id="status" text="Pass or Fail" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Setting">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

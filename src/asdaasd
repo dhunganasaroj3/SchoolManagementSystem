@@ -1,0 +1,483 @@
+package Admin;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
+
+public class AdminController {
+
+    @FXML
+    private RadioButton rb1;
+
+    @FXML
+    private Label date;
+
+    @FXML
+    private RadioButton rb2;
+
+    @FXML
+    private TextField num;
+
+    @FXML
+    private TextField DOBplace;
+
+    @FXML
+    private TableColumn<?, ?> lastNameCol;
+
+    @FXML
+    private PasswordField password;
+
+    @FXML
+    private Button Findresult;
+
+    @FXML
+    private TableColumn<?, ?> idCol;
+
+    @FXML
+    private Button Updateresult;
+
+    @FXML
+    private ComboBox<?> selectClass;
+
+    @FXML
+    private TableColumn<?, ?> ClassCol;
+
+    @FXML
+    private TableColumn<?, ?> emailCol;
+
+    @FXML
+    private TextField mothername;
+
+    @FXML
+    private TableColumn<?, ?> fatherCol;
+
+    @FXML
+    private TableColumn<?, ?> parentNumberCol;
+
+    @FXML
+    private Button updatebtn;
+
+    @FXML
+    private Button btnLoad;
+
+    @FXML
+    private TableColumn<?, ?> dobCol;
+
+    @FXML
+    private ComboBox<?> selectStudent_Id;
+
+    @FXML
+    private TextField lastname;
+
+    @FXML
+    private DatePicker dob;
+
+    @FXML
+    private TextField Class;
+
+    @FXML
+    private Tab manage_user;
+
+    @FXML
+    private TextField firstname;
+
+    @FXML
+    private ToggleGroup gender;
+
+    @FXML
+    private TableColumn<?, ?> DOB_placeCol;
+
+    @FXML
+    private Button searchbtn;
+
+    @FXML
+    private ComboBox<?> selectDivision;
+
+    @FXML
+    private TableColumn<?, ?> genderCol;
+
+    @FXML
+    private Button btnClear;
+
+    @FXML
+    private Button Addresult;
+
+    @FXML
+    private Button deletebtn;
+
+    @FXML
+    private TableColumn<?, ?> firstNameCol;
+
+    @FXML
+    private TextField studentId;
+
+    @FXML
+    private TextField roll_no;
+
+    @FXML
+    private ComboBox<?> selectSubject;
+
+    @FXML
+    private TextField term;
+
+    @FXML
+    private TextField email;
+
+    @FXML
+    private TextField firstname1;
+
+    @FXML
+    private TextField m1;
+
+    @FXML
+    private Label loginname;
+
+    @FXML
+    private TableColumn<?, ?> motherCol;
+
+    @FXML
+    private Label lbl_user;
+
+    @FXML
+    private TextField searchfield;
+
+    @FXML
+    private TextField userName;
+
+    @FXML
+    private TableColumn<?, ?> studentidCol;
+
+    @FXML
+    private TableView<?> studentTable;
+
+    @FXML
+    private TextField parentnumber;
+
+    @FXML
+    private TextField fathername;
+
+    @FXML
+    private Button btnAdd;
+
+    @FXML
+    private TextField yrs;
+
+    @FXML
+    private TextField lastname1;
+
+    @FXML
+    private Label time;
+
+    @FXML
+    private TextField symbolenumber;
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void radioSelect(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void radioSelect(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnAdd(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnClear(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void updatebtn(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void deletebtn(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void b1adad(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnLoad(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void searchbtn(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void Addresult(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void Updateresult(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f29913(ActionEvent event) {
+
+    }
+
+    @FXML
+    void b1adad(ActionEvent event) {
+
+    }
+
+    @FXML
+    void b1adad(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void InsertCombobox(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+    @FXML
+    void f39c12(ActionEvent event) {
+
+    }
+
+}
